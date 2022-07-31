@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from "./pages/home";
 
 function App() {
   return (
-    <div className="bg-red-500 text-center">
-          Test tailwind
+    <div className="max-w-screen-md mx-auto pt-20">
+      <Home/>
     </div>
   );
 }
