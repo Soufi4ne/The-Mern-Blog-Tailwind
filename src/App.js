@@ -1,10 +1,15 @@
 import Home from "./pages/home";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="max-w-screen-md mx-auto pt-20">
-      <Home/>
-    </div>
+    <Router>
+      <div className="max-w-screen-md mx-auto pt-20">
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
