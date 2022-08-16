@@ -7,7 +7,7 @@ const Article = () => {
   const article = articleContent.find(function take (article){ return article.name === name})
   return (
     <div>       
-       <h1 className='sm:text-4xl text-2xl font-bold my-6 text-gray-600'>Free Article about {name}</h1>
+       <h1 className='sm:text-4xl text-2xl font-bold my-6 text-gray-600'>Free Article about {article.title}</h1>
     </div>
   )
 }
