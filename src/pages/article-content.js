@@ -12,7 +12,7 @@ const articles = [
   {
     name: "learn-adobexd",
     title: "Learning AdobeXD for noobs",
-    thumbnail: "/images/adobexd21.png",
+    thumbnail: "/images/adobexd.png",
     content: [
       `The Adobe software company has offered over time exceptional design software such as Photoshop, Illustrator, InDesign, and many others. Adobe XD is another excellent platform that you can use, and these Adobe XD tutorials will show you exactly how.`,
       `Adobe XD or Adobe Experience Design CC is a similar platform to Sketch, thus allowing you to build various prototypes for web design or applications. Adobe XD has growth in popularity over time and it is being used more and more by designers and web developers.`,
