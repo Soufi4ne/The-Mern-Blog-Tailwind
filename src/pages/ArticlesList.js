@@ -21,6 +21,9 @@ const ArticlesList = () => {
                   <Link key={index} to={`/article/${article.name}`}><h3 className="text-lg font-medium text-gray-900 mb-3">{article.title}</h3></Link>
                   <p className="leading-relaxed mb-3">{article.content[0].substring(0,150)}...</p>
                   {/* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring */}
+                  <div className="flex item-center flex-wrap">
+                    <Link className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" to={`/article/${article.name}`}>Read more...</Link>
+                  </div>
                 </div>
               </div>
             </div>
